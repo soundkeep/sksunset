@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #000 url(background.jpg) 50% top no-repeat;
+}
+
+h1 {
+    width: 274px;
+    height: 92px;
+    background: transparent url(logo.png) 0 0 no-repeat;
+    margin: 60px auto 50px auto;
+    /* image replacement */
+    border: 0;
+    font: 0/0 a;
+    text-shadow: none;
+    color: transparent;
+    background-color: transparent;
+}
+
+p {
+    color: #fff;
+    font-family: 'ProximaNova';
+    font-size: 30px;
+    line-height: 50px;
+    margin: 30px 0;
+    text-align: center;
+    -webkit-font-smoothing: antialiased;
+}
+
+p.minor {
+    font-size: 24px;
+    margin-top: 60px;
+    opacity: .4;
+}
+
+section#contact-wrapper {
+    width: 720px;
+    margin: 20px auto 0 auto;
+}
+
+section#contact-wrapper .contact {
+    float: left;
+    width: 200px;
+    margin-right: 60px;
+    text-align: center;
+}
+
+section#contact-wrapper .contact:last-child {
+    margin-right: 0;
+}
+
+section#contact-wrapper .contact span {
+    display: block;
+    color: #fff;
+    font-family: 'ProximaNova';
+    font-size: 18px;
+    margin-bottom: 20px;
+    -webkit-font-smoothing: antialiased;
+}
+
+section#contact-wrapper .contact a {
+    display: block;
+    color: #008de0;
+    font-family: 'ProximaNova';
+    font-size: 24px;
+    margin-bottom: 5px;
+    text-decoration: none;
+    -webkit-font-smoothing: antialiased;
+}
+
+
+
+@font-face {
+  font-family: 'ProximaNova';
+  src: url('font/ProximaNova-Regular.eot'); /* IE9 Compat Modes */
+  src: url('font/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('font/ProximaNova-Regular.woff') format('woff'), /* Modern Browsers */
+       url('font/ProximaNova-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('font/ProximaNova-Regular.svg#2c1459d58560f08b4b0586fbe80aa4cd') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  400;
+}
